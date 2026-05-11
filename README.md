@@ -39,32 +39,31 @@ AI-based DPI cannot distinguish HTTPS VPN traffic from regular browser traffic b
 
 ## Supported Cryptography Standards
 
-| Country | Regulatory Body | Signature | Hash | Cipher | Status |
-|---------|-----------------|-----------|------|--------|--------|
-| 🇺🇸 USA | NIST | ECDSA / EdDSA | SHA-2 / SHA-3 | AES | ✅ |
-| 🇹🇭 Thailand | NIST / ETDA | ML-DSA (FIPS 204) | SHA-3 | AES / ML-KEM | ✅ |
-| 🇨🇳 China | State Cryptography Administration | SM2 | SM3 | SM4, SM9 | ✅ |
-| 🇺🇦 Ukraine | ДСТУ | Сокіл (Sokil) | Купина (Kupyna) | Калина (Kalyna) | ✅ |
-| 🇷🇺 Russia | FSB | GOST R 34.10 | Streebog | Kuznyechik | 🔄 |
-| 🇰🇷 South Korea | KISA | KCDSA | HAS-160 | SEED | 📋 |
-| 🇯🇵 Japan | CRYPTREC | ECDSA | SHA-2 | Camellia | 📋 |
-| 🇮🇳 India | STQC | ECSDSA | SHA-2 | AES | 📋 |
-| 🇪🇺 EU | ETSI | Brainpool ECC | SHA-2 | AES | 📋 |
-| 🇫🇷 France | ANSSI | ECDSA | SHA-256 | AES | ✅ |
-| 🇬🇧 UK | NCSC | ECDSA | SHA-2 | AES (NCSC Compliant) | ✅ |
-| 🇮🇱 Israel | INCD | ECC | SHA-2 | AES | 📋 |
-| 🇧🇷 Brazil | ITI | ECDSA | SHA-2 | AES | 📋 |
-| 🇮🇷 Iran | INCC | ECC / RSA | SHA-2 | AES | 📋 |
+| Country | Regulatory Body | Signature | Hash | Cipher |
+|---------|-----------------|-----------|------|--------|
+| 🇺🇸 USA | NIST | ECDSA / EdDSA | SHA-2 / SHA-3 | AES |
+| 🇨🇳 China | State Cryptography Administration | SM2 | SM3 | SM4, SM9 |
+| 🇺🇦 Ukraine | ДСТУ | Сокіл (Sokil) | Купина (Kupyna) | Калина (Kalyna) |
+| 🇷🇺 Russia | FSB | GOST R 34.10 | Streebog | Kuznyechik |
+| 🇰🇷 South Korea | KISA | KCDSA | HAS-160 | SEED |
+| 🇯🇵 Japan | CRYPTREC | ECDSA | SHA-2 | Camellia |
+| 🇮🇳 India | STQC | ECSDSA | SHA-2 | AES |
+| 🇪🇺 EU | ETSI | Brainpool ECC | SHA-2 | AES |
+| 🇫🇷 France | ANSSI | ECDSA | SHA-256 | AES |
+| 🇬🇧 UK | NCSC | ECDSA | SHA-2 | AES (NCSC Compliant) |
+| 🇮🇱 Israel | INCD | ECC | SHA-2 | AES |
+| 🇧🇷 Brazil | ITI | ECDSA | SHA-2 | AES |
+| 🇮🇷 Iran | INCC | ECC / RSA | SHA-2 | AES |
+| 🇹🇭 Thailand | NIST / ETDA | ML-DSA (FIPS 204) | SHA-3 | AES / ML-KEM |
 
-Legend: ✅ Implemented | 🔄 In Progress | 📋 Planned
 
 ### Post-Quantum Cryptography
 
 | Country | Standard | KEM | Signature | Security Level |
 |---------|----------|-----|-----------|----------------|
-| 🇹🇭 Thailand | TH-PQC (Hybrid) | ML-KEM-768/1024 | ML-DSA-65 | Category 3-5 |
-| 🇺🇦 Ukraine | ДСТУ-ПК 2026 | Мальва (Malva) | Сокіл (Sokil) | Category 5 (256-bit) |
 | 🇺🇸 USA | NIST FIPS 203/204 | ML-KEM | ML-DSA | Category 5 |
+| 🇺🇦 Ukraine | ДСТУ-ПК 2026 | Мальва (Malva) | Сокіл (Sokil) | Category 5 (256-bit) |
+| 🇹🇭 Thailand | TH-PQC (Hybrid) | ML-KEM-768/1024 | ML-DSA-65 | Category 3-5 |
 
 Thai post-quantum stack (TH-PQC) uses NIST-finalized standards (FIPS 203, 204, 205) in hybrid mode with classical ECC for balanced performance and high security.
 
