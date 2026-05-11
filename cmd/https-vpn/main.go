@@ -10,9 +10,13 @@ import (
 
 	"github.com/nativemind/https-vpn/core"
 	"github.com/nativemind/https-vpn/infra/conf"
+
+	// Register crypto providers
+	_ "github.com/vpnclient/https-vpn/crypto/ru"
+	_ "github.com/vpnclient/https-vpn/crypto/th"
 )
 
-const version = "0.1.0-dev"
+var Version = "0.1.0-dev"
 
 func main() {
 	// Define commands
@@ -39,7 +43,7 @@ func main() {
 		initConfig(*initCrypto)
 	case "version":
 		versionCmd.Parse(os.Args[2:])
-		fmt.Printf("https-vpn %s\n", version)
+		fmt.Printf("https-vpn %s\n", Version)
 	case "help", "-h", "--help":
 		printUsage()
 	default:
