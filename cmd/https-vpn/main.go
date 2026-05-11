@@ -8,8 +8,8 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/nativemind/https-vpn/core"
-	"github.com/nativemind/https-vpn/infra/conf"
+	"github.com/vpnclient/https-vpn/core"
+	"github.com/vpnclient/https-vpn/infra/conf"
 
 	// Register crypto providers
 	_ "github.com/vpnclient/https-vpn/crypto/ru"

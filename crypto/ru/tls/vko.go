@@ -7,7 +7,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/nativemind/https-vpn/crypto/ru/gost"
+	"github.com/vpnclient/https-vpn/crypto/ru/gost"
 )
 
 // VKO computes shared key using GOST R 34.10-2012 key agreement.

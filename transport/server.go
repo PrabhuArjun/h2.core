@@ -7,7 +7,7 @@ import (
 	"net"
 	"net/http"
 
-	"github.com/nativemind/https-vpn/crypto"
+	"github.com/vpnclient/https-vpn/crypto"
 )
 
 // H2Server handles HTTP/2 CONNECT requests over TLS.

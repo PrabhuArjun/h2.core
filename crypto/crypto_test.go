@@ -4,8 +4,8 @@ import (
 	"crypto/tls"
 	"testing"
 
-	"github.com/nativemind/https-vpn/crypto"
-	_ "github.com/nativemind/https-vpn/crypto/us"
+	"github.com/vpnclient/https-vpn/crypto"
+	_ "github.com/vpnclient/https-vpn/crypto/us"
 )
 
 // TestRegistry_Get tests provider registration and retrieval

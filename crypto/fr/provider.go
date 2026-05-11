@@ -2,7 +2,7 @@ package fr
 
 import (
 	"crypto/tls"
-	"github.com/nativemind/https-vpn/crypto"
+	"github.com/vpnclient/https-vpn/crypto"
 )
 
 type Provider struct{}

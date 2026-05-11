@@ -2,7 +2,7 @@ package fr
 
 import (
 	"testing"
-	"github.com/nativemind/https-vpn/crypto"
+	"github.com/vpnclient/https-vpn/crypto"
 )
 
 func TestFRProviderRegistration(t *testing.T) {

@@ -5,7 +5,7 @@ package us
 import (
 	"crypto/tls"
 
-	"github.com/nativemind/https-vpn/crypto"
+	"github.com/vpnclient/https-vpn/crypto"
 )
 
 func init() {

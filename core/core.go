@@ -11,9 +11,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/nativemind/https-vpn/crypto"
-	"github.com/nativemind/https-vpn/infra/conf"
-	"github.com/nativemind/https-vpn/transport"
+	"github.com/vpnclient/https-vpn/crypto"
+	"github.com/vpnclient/https-vpn/infra/conf"
+	"github.com/vpnclient/https-vpn/transport"
 )
 
 // Instance represents an HTTPS VPN server instance.

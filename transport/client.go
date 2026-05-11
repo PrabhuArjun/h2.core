@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/nativemind/https-vpn/crypto"
+	"github.com/vpnclient/https-vpn/crypto"
 )
 
 // H2Client connects to HTTPS VPN server via HTTP/2 CONNECT.

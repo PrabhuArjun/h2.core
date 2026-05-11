@@ -4,8 +4,8 @@ package cn
 import (
 	"crypto/tls"
 
-	"github.com/nativemind/https-vpn/crypto"
-	smtls "github.com/nativemind/https-vpn/crypto/cn/tls"
+	"github.com/vpnclient/https-vpn/crypto"
+	smtls "github.com/vpnclient/https-vpn/crypto/cn/tls"
 )
 
 // Provider implements crypto.Provider for Chinese cryptography (SM series).

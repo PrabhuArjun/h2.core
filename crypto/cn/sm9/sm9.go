@@ -13,7 +13,7 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/nativemind/https-vpn/crypto/cn/sm3"
+	"github.com/vpnclient/https-vpn/crypto/cn/sm3"
 )
 
 const (

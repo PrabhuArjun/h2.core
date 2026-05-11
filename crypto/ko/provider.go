@@ -5,8 +5,8 @@ package ko
 import (
 	"crypto/tls"
 
-	"github.com/nativemind/https-vpn/crypto"
-	kotls "github.com/nativemind/https-vpn/crypto/ko/tls"
+	"github.com/vpnclient/https-vpn/crypto"
+	kotls "github.com/vpnclient/https-vpn/crypto/ko/tls"
 )
 
 // Provider implements crypto.Provider for Korean cryptography

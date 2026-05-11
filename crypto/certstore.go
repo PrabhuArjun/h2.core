@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/nativemind/https-vpn/infra/conf"
+	"github.com/vpnclient/https-vpn/infra/conf"
 )
 
 // CertificateStore holds certificates indexed by crypto provider.

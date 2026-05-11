@@ -4,10 +4,10 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/nativemind/https-vpn/crypto"
+	"github.com/vpnclient/https-vpn/crypto"
 	// Import providers to register them
-	_ "github.com/nativemind/https-vpn/crypto/cn"
-	_ "github.com/nativemind/https-vpn/crypto/us"
+	_ "github.com/vpnclient/https-vpn/crypto/cn"
+	_ "github.com/vpnclient/https-vpn/crypto/us"
 )
 
 func TestParseProviderPriority(t *testing.T) {

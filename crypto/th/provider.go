@@ -6,8 +6,8 @@ import (
 	"crypto/tls"
 	"fmt"
 
-	"github.com/nativemind/https-vpn/crypto"
-	thtls "github.com/nativemind/https-vpn/crypto/th/tls"
+	"github.com/vpnclient/https-vpn/crypto"
+	thtls "github.com/vpnclient/https-vpn/crypto/th/tls"
 )
 
 // Provider implements crypto.Provider for Thai cryptography.

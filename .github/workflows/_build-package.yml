@@ -34,7 +34,7 @@ on:
       maintainer:
         required: false
         type: string
-        default: "NativeMind <noreply@nativemind.net>"
+        default: "vpnclient <noreply@vpnclient.net>"
     outputs:
       package_path:
         description: "Path to package file"

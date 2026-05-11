@@ -26,7 +26,7 @@
 ### 2026-03-11: Phase 1 - Foundation
 
 **Task 1.1: Project Setup** ✅
-- Created `go.mod` with module `github.com/nativemind/https-vpn`
+- Created `go.mod` with module `github.com/vpnclient/https-vpn`
 - Created directory structure: `core/`, `transport/`, `crypto/`, `infra/conf/`, `cmd/`
 
 **Task 1.2: Crypto Provider Interface** ✅

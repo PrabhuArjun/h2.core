@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/nativemind/https-vpn/infra/conf"
+	"github.com/vpnclient/https-vpn/infra/conf"
 )
 
 // TestLoadConfig_Valid tests loading a valid config

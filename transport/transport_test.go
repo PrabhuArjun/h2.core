@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/nativemind/https-vpn/transport"
+	"github.com/vpnclient/https-vpn/transport"
 )
 
 // TestConnectHandler_Success tests successful CONNECT request

@@ -4,8 +4,8 @@ import (
 	"crypto/tls"
 	"testing"
 
-	"github.com/nativemind/https-vpn/crypto"
-	thtls "github.com/nativemind/https-vpn/crypto/th/tls"
+	"github.com/vpnclient/https-vpn/crypto"
+	thtls "github.com/vpnclient/https-vpn/crypto/th/tls"
 )
 
 func TestProviderRegistration(t *testing.T) {

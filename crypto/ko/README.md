@@ -14,7 +14,7 @@ This package implements the cryptographic provider for Korean national standards
 - **RFCs**: RFC 5794, RFC 6209, RFC 9367
 
 ```go
-import "github.com/nativemind/https-vpn/crypto/ko/aria"
+import "github.com/vpnclient/https-vpn/crypto/ko/aria"
 
 // Create ARIA-256 cipher
 key := make([]byte, 32)
@@ -34,7 +34,7 @@ cipher, err := aria.NewCipher(key)
 - **RFCs**: RFC 4162, RFC 4269
 
 ```go
-import "github.com/nativemind/https-vpn/crypto/ko/seed"
+import "github.com/vpnclient/https-vpn/crypto/ko/seed"
 
 key := make([]byte, 16)
 cipher, err := seed.NewCipher(key)
@@ -78,8 +78,8 @@ cipher, err := seed.NewCipher(key)
 
 ```go
 import (
-    "github.com/nativemind/https-vpn/crypto"
-    _ "github.com/nativemind/https-vpn/crypto/ko" // Register provider
+    "github.com/vpnclient/https-vpn/crypto"
+    _ "github.com/vpnclient/https-vpn/crypto/ko" // Register provider
 )
 
 provider, ok := crypto.Get("ko")

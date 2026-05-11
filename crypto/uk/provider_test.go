@@ -4,8 +4,8 @@ import (
 	"crypto/tls"
 	"testing"
 
-	"github.com/nativemind/https-vpn/crypto"
-	"github.com/nativemind/https-vpn/crypto/uk"
+	"github.com/vpnclient/https-vpn/crypto"
+	"github.com/vpnclient/https-vpn/crypto/uk"
 )
 
 func TestUKProviderName(t *testing.T) {

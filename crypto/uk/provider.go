@@ -2,7 +2,7 @@ package uk
 
 import (
 	"crypto/tls"
-	"github.com/nativemind/https-vpn/crypto"
+	"github.com/vpnclient/https-vpn/crypto"
 )
 
 // Provider implements crypto.Provider for UK NCSC compliant cryptography.

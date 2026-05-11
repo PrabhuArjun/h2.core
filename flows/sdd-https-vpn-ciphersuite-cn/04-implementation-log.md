@@ -77,10 +77,10 @@
 #### Test Results
 
 ```
-ok  	github.com/nativemind/https-vpn/crypto/cn        0.524s
-ok  	github.com/nativemind/https-vpn/crypto/cn/sm2    0.540s
-ok  	github.com/nativemind/https-vpn/crypto/cn/sm3    0.430s
-ok  	github.com/nativemind/https-vpn/crypto/cn/sm4    0.671s
+ok  	github.com/vpnclient/https-vpn/crypto/cn        0.524s
+ok  	github.com/vpnclient/https-vpn/crypto/cn/sm2    0.540s
+ok  	github.com/vpnclient/https-vpn/crypto/cn/sm3    0.430s
+ok  	github.com/vpnclient/https-vpn/crypto/cn/sm4    0.671s
 ```
 
 **Ended at**: Phase 4, Task 4.5
@@ -136,11 +136,11 @@ ok  	github.com/nativemind/https-vpn/crypto/cn/sm4    0.671s
 #### Test Results
 
 ```
-ok  	github.com/nativemind/https-vpn/crypto/cn        1.953s
-ok  	github.com/nativemind/https-vpn/crypto/cn/sm2    0.494s
-ok  	github.com/nativemind/https-vpn/crypto/cn/sm3    1.078s
-ok  	github.com/nativemind/https-vpn/crypto/cn/sm4    1.725s
-ok  	github.com/nativemind/https-vpn/crypto/cn/sm9    0.776s
+ok  	github.com/vpnclient/https-vpn/crypto/cn        1.953s
+ok  	github.com/vpnclient/https-vpn/crypto/cn/sm2    0.494s
+ok  	github.com/vpnclient/https-vpn/crypto/cn/sm3    1.078s
+ok  	github.com/vpnclient/https-vpn/crypto/cn/sm4    1.725s
+ok  	github.com/vpnclient/https-vpn/crypto/cn/sm9    0.776s
 ```
 
 **Ended at**: Phase 3, Task 3.3

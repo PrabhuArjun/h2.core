@@ -86,7 +86,7 @@ if ok {
 
 ## Ліцензія
 
-NativeMindNONC
+vpnclientNONC
 
 ## Посилання
 

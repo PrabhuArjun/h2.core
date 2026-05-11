@@ -3,8 +3,8 @@ package core
 import (
 	"testing"
 
-	"github.com/nativemind/https-vpn/infra/conf"
-	_ "github.com/nativemind/https-vpn/crypto/us"
+	"github.com/vpnclient/https-vpn/infra/conf"
+	_ "github.com/vpnclient/https-vpn/crypto/us"
 )
 
 func TestGetProviderName_NilConfig(t *testing.T) {

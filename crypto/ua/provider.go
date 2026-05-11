@@ -5,8 +5,8 @@ package ua
 import (
 	"crypto/tls"
 
-	"github.com/nativemind/https-vpn/crypto"
-	uatls "github.com/nativemind/https-vpn/crypto/ua/tls"
+	"github.com/vpnclient/https-vpn/crypto"
+	uatls "github.com/vpnclient/https-vpn/crypto/ua/tls"
 )
 
 // Provider реалізує crypto.Provider для української криптографії

@@ -9,7 +9,7 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/nativemind/https-vpn/crypto/ru/gost"
+	"github.com/vpnclient/https-vpn/crypto/ru/gost"
 )
 
 // Handshake performs the TLS handshake.

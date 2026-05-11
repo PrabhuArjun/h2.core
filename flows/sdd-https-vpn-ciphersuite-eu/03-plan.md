@@ -49,7 +49,7 @@
 
 ## Rollback Plan
 
-- Since this is a new provider, rollback involves removing the `import _ "github.com/nativemind/https-vpn/crypto/eu"` or deleting the `crypto/eu` package.
+- Since this is a new provider, rollback involves removing the `import _ "github.com/vpnclient/https-vpn/crypto/eu"` or deleting the `crypto/eu` package.
 
 ## Complexity Estimate
 

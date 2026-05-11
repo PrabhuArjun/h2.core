@@ -48,8 +48,8 @@
 #### Test Results
 
 ```
-ok  github.com/nativemind/https-vpn/core      1.395s
-ok  github.com/nativemind/https-vpn/crypto    1.579s
+ok  github.com/vpnclient/https-vpn/core      1.395s
+ok  github.com/vpnclient/https-vpn/crypto    1.579s
 ```
 
 **Ended at**: Task 4
