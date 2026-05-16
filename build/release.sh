@@ -48,7 +48,6 @@ TARGETS=(
     "openbsd/arm/7/h2-openbsd-arm32-v7a"
 
     # Android (CLI)
-    "android/amd64//h2-android-amd64"
     "android/arm64//h2-android-arm64-v8a"
 
     # Windows
@@ -71,10 +70,12 @@ build_target() {
 
     echo "Building $name..."
 
-    local env="GOOS=$goos GOARCH=$goarch CGO_ENABLED=0"
-    [[ -n "$goarm" ]] && env="$env GOARM=$goarm"
+    export GOOS="$goos"
+    export GOARCH="$goarch"
+    export CGO_ENABLED=0
+    [[ -n "$goarm" ]] && export GOARM="$goarm" || unset GOARM
 
-    if eval $env go build -trimpath -ldflags="-s -w -X main.Version=${VERSION}" \
+    if go build -trimpath -ldflags="-s -w -X main.Version=${VERSION}" \
         -o "$build_dir/$binary" "$CMD_PATH" 2>/dev/null; then
         # Create zip
         (cd "$OUTPUT_DIR" && zip -q -r "$name.zip" "$name")
