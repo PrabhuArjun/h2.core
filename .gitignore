@@ -1,0 +1,4 @@
+
+# Test self-signed certs (smoke, не коммитим)
+gost_cert.pem
+gost_key.pem
